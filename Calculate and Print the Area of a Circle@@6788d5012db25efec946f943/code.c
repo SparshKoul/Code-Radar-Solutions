@@ -8,6 +8,6 @@ int main() {
     scanf("%f", &x);
     float r;
     r= (PI*x*x);
-    printf("Area:%.2f",r );
+    printf("Area: %.2f",r );
     return 0;
 }
