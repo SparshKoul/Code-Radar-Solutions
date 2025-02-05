@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PI 3.141  // Defining Pi as a constant
+#define PI 3.14 // Defining Pi as a constant
 
 
 
