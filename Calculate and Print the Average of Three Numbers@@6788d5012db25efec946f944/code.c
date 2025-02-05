@@ -11,6 +11,6 @@ int main() {
 
     float r;
     r = (x+y+z)\3;
-    printf("Avarage: %f", r);
+    printf("Avarage: %.2f", r);
     return 0;
 }
