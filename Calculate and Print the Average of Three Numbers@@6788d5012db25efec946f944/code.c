@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
 
     float x,y,z;
-    scanf("%f%f%f", &x&y&z);
+    scanf("%f%f%f", &x,&y,&z);
 
     float r;
     r = (x+y+z)\3;
