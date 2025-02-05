@@ -11,6 +11,6 @@ int main() {
     //     printf("False");
     // }
 
-    printf(a>b ? True : False);
+    printf(a>b ? "True" : "False");
     return 0;
 }
