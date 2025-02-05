@@ -7,6 +7,6 @@ int main() {
 
     float r;
     r = (x+y+z)/3;
-    printf("Avarage: %.2f", r);
+    printf("Average: %.2f", r);
     return 0;
 }
