@@ -1,21 +1,14 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-
 int main() {
-    int a,b;
-    scanf("%d %d", &a,&b);
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
 
-    if(a>=0 &&b<=0){
-        printf("True");
-    }else if(a==0 &&b==0){
-        printf("True");
+    if ((num1 > 0 && num2 < 0) || (num1 == 0 && num2 == 0)) {
+        printf("True\n");
+    } else {
+        printf("False\n");
     }
-    else{
-        printf("False");
-    }
+
     return 0;
 }
