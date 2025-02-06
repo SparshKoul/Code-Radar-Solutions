@@ -20,7 +20,7 @@ int main() {
     int num1, num2;
     scanf("%d %d", &num1, &num2);
 
-    if ((num1 ^ num2) <= 0) {  // Checks for opposite signs using XOR
+    if ((num1 ^ num2) < 0) {  // Checks for opposite signs using XOR
         printf("True\n");
     } else {
         printf("False\n");
