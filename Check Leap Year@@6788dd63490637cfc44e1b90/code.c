@@ -16,10 +16,10 @@ int main() {
     //     printf("Not a Leap Year");
     // }
     if((a %4==0 && a%100!=0) || a %400==0){
-        printf("Leap year");
+        printf("Leap Year");
     }
     else{
-        printf("Not a Leap year");
+        printf("Not a Leap Year");
     }
 
 }
