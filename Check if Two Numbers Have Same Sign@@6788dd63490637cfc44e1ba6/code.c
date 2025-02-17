@@ -7,7 +7,7 @@ int main(){
 
     if (x*y <0){
         printf("Different Sign");
-    }else("Same Sign");
+    }else printf("Same Sign");
 
     return 0;
 }
