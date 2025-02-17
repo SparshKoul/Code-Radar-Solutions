@@ -17,5 +17,7 @@ int main(){
     else if (x=='F'){
         printf("Fail");
     }
-    default : printf("Invalid grade");
+    else {
+        printf("Invalid grade");
+    }   
 }
