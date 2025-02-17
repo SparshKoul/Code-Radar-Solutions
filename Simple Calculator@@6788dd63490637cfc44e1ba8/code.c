@@ -18,13 +18,13 @@ int main() {
             break;
         case '/':
             if (num2 == 0) {
-                printf("Error: Division by zero is not allowed.\n");
+                printf("Error");
             } else {
                 printf("%d\n", num1 / num2);
             }
             break;
         default:
-            printf("Error: Invalid operator. Please use +, -, *, or /.\n");
+            printf("Error");
             break;
     }
 
