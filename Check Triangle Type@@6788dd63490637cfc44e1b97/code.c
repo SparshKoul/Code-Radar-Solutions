@@ -5,9 +5,9 @@ int main(){
     scanf("%d %d%d", &x,&y,&z);
 
     if(x==y==z){
-        printf("Euailateral")
+        printf("Euailateral");
     }
-    
+
 
    
 }
