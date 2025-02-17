@@ -9,7 +9,7 @@ int main() {
 
     // Prime numbers are greater than 1
     if (num <= 1) {
-        printf("Not prime \n");
+        printf("Not Prime \n");
     } else {
         // Check divisibility from 2 to num/2
         for (i = 2; i <= num / 2; i++) {
@@ -21,7 +21,7 @@ int main() {
         if (isPrime) {
             printf("Prime\n");
         } else {
-            printf("Not prime\n");
+            printf("Not Prime\n");
         }
     }
 
