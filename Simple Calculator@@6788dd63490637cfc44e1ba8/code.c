@@ -19,13 +19,13 @@ int main() {
             break;
         case '/':
             if (num2 == 0) {
-                printf("Error");
+                printf("error");
             } else {
                 printf("%d\n", num1 / num2);
             }
             break;
         default:
-            printf("Error\n");
+            printf("error\n");
             break;
     }
 
