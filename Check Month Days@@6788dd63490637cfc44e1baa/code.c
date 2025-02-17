@@ -51,7 +51,7 @@ int main(){
         break;
     }
     case 12:{
-        printf("%d",30);
+        printf("%d",31);
         break;
     }
     
