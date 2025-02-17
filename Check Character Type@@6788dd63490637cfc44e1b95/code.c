@@ -23,7 +23,7 @@ int main() {
     }
     // If not a letter or digit, it must be a special character
     else {
-        printf("Special character");
+        printf("Special Character");
     }
 
     return 0;
