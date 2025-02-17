@@ -6,7 +6,7 @@ int main(){
 
     if(x==y && y==z){
         printf("Euailateral");
-    }else if (a == b || a == c || b == c) {
+    }else if (x == y || x == z || y == z) {
         printf("Isosceles Triangle\n");
     } else {
         printf("Scalene Triangle\n");
