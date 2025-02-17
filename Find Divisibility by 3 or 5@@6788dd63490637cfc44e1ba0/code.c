@@ -7,11 +7,12 @@ int main() {
     // Taking user input
     scanf("%d", &num);
     if (num % 3 == 0 && num % 5 == 0) {
-        printf("Divisible by Both 3 and 5.\n");
-    } else if(num % 3 == 0 &&num % 5 != 0){
-        printf("Divisible by  3\n" );
+        printf("Divisible by Both \n");
+    } 
+    else if(num % 3 == 0 &&num % 5 != 0){
+        printf("Divisible by 3\n" );
     }else if(num % 3 1= 0 &&num % 5 == 0){
-        printf("Divisible by  5\n" );
+        printf("Divisible by 5\n" );
 
     return 0;
 }
