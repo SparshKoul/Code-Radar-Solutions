@@ -34,9 +34,9 @@ int main(){
         printf("Sunday");
         break;
     }
-    default{
+    default:(
         printf("Invalid");
-    }
+    )
 
     return 0;
     }
