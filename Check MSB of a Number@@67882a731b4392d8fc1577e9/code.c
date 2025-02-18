@@ -8,7 +8,7 @@ int main(){
     long x;
     scanf("%ld", &x);
 
-    if(x%2==0){
+    if(x>=0){
         printf("Not Set");
     }else{
         printf("Set");
